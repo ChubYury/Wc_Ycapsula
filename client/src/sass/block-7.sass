@@ -1,0 +1,96 @@
+.slider
+  padding: 50px 0px
+  &__
+    &itemWr
+      display: flex
+      flex-direction: column
+      flex-wrap: wrap
+
+    &info
+      width: 300px
+    &foto
+      width: 202px
+      height: 202px
+      border-radius: 50%
+    &name
+      margin-top: 20px
+      font-family: Montserrat
+      font-weight: 400
+      font-size: 24px
+      line-height: 110%
+    &date
+      margin: 10px 0px
+      font-family: Montserrat
+      font-weight: 400
+      font-size: 14px
+      line-height: 140%
+      color: var(--theme-color-secondary)
+    &comment
+      font-family: Montserrat
+      font-weight: 400
+      font-size: 14px
+      line-height: 140%
+
+  .slick-slide
+    padding: 0px 5px
+    width: 300px
+    margin: 0px 40px
+
+.control
+  position: absolute
+  width: 48px
+  height: 48px
+  padding: 0px 0px 0px 0px
+  top: 81%
+  right: 0px
+  border: 2px solid var(--theme-color-secondary)
+  border-radius: 50%
+  font-size: 60px
+  text-align: center
+  line-height: 55%
+  color: var(--theme-color-secondary)
+  &:hover
+    color: var(--btn-color-base)
+    border: 2px solid var(--btn-color-base)
+  &--prev
+    right: 10%
+  &--next
+    right: 80%
+
+.slick-dots
+  display: flex
+  align-items: center
+  justify-content: center
+  margin: 20px 0
+
+  [role="tab"]
+    width: 11px
+    height: 11px
+    border: none
+    border-radius: 50%
+    margin: 30px 20px 0px 0px
+    //left: 226px
+    //top: 1976px
+    background: rgba(0, 0, 0, 0.3)
+    color: transparent
+
+  .slick-active
+    [role="tab"]
+      position: relative
+      width: 15px
+      height: 15px
+      border: 1px solid var(--btn-color-base)
+      border-radius: 50%
+      margin: 26px 20px 0px 0px
+      //left: 200px
+      //top: 1974px
+      background: var(--text-color-secondary)
+      &::before
+        position: absolute
+        content: ''
+        width: 7px
+        height: 7px
+        top: 3px
+        left: 3px
+        background: var(--btn-color-base)
+        border-radius: 50%

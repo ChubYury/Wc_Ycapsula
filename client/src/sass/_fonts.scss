@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-display: swap;
+  src: url('../../static/fonts/Montserrat-Regular.woff2') format('woff2'),
+    url('../../static/fonts/Montserrat-Regular.woff') format('woff'),
+    url('../../static/fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../static/fonts/Montserrat-Bold.woff2') format('woff2'),
+    url('../../static/fonts/Montserrat-Bold.woff') format('woff'),
+    url('../../static/fonts/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'YS_Text';
+  font-weight: 500;
+  font-display: swap;
+  src: url('../../static/fonts/YandexSansText-Medium.woff2') format('woff2'),
+    url('../../static/fonts/YandexSansText-Medium.woff') format('woff'),
+    url('../../static/fonts/YandexSansText-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'YS_Text';
+  font-weight: 300;
+  font-display: swap;
+  src: url('../../static/fonts/YandexSansText-Light.woff2') format('woff2'),
+    url('../../static/fonts/YandexSansText-Light.woff') format('woff'),
+    url('../../static/fonts/YandexSansText-Light.ttf') format('truetype');
+}

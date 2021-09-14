@@ -1,0 +1,92 @@
+.block-4
+  padding-bottom: 40px
+  &__
+    &wrap
+      display: flex
+      flex-wrap: wrap
+      padding: 32px 0px 20px 24px
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(241, 241, 241, 0.6) 100%)
+      backdrop-filter: blur(12px)
+      border-radius: 40px
+
+.bl-head
+  &__
+    &title
+      width: 100%
+      margin-bottom: 20px
+      font-family: Montserrat
+      font-weight: 400
+      font-size: 32px
+      line-height: 110%
+      letter-spacing: -0.02em
+    &subtitle
+      font-family: Montserrat
+      font-style: normal
+      font-weight: normal
+      font-size: 14px
+      line-height: 140%
+      letter-spacing: -0.01em
+    &btn
+      margin: 10px 0px
+      &:hover
+        color: var(--text-color-secondary)
+        box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25)
+      &:active
+        color: rgba(255, 255, 255, 0.9)
+        box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.25) inset
+
+.items
+  position: relative
+  padding: 20px 0px
+
+.item
+  display: flex
+  flex-wrap: wrap
+  position: relative
+  padding: 0px 0px 20px 50px
+  &::before
+    content: ''
+    position: absolute
+    width: 2px
+    height: 90%
+    top: 19px
+    left: 15px
+    background: var(--theme-color-secondary)
+  &--end
+    display: flex
+    flex-wrap: wrap
+    position: relative
+    padding: 0px 0px 20px 50px
+  &__
+    &icon
+      position: absolute
+      width: 32px
+      height: 32px
+      padding: 5px 1px 0px 0px
+      //margin: 10px 15px 0px 0px
+      top: 0px
+      left: 0px
+      background: var(--text-color-secondary)
+      border: 2px solid var(--text-color-three)
+      border-radius: 50%
+      font-family: Montserrat
+      font-weight: 400
+      font-size: 14px
+      line-height: 140%
+      text-align: center
+      letter-spacing: -0.01em
+
+    &title
+      width: 80%
+      margin: 0px 0px 5px 0px
+      font-family: Montserrat
+      font-weight: 400
+      font-size: 24px
+      line-height: 110%
+    &description
+      width: 80%
+      font-family: Montserrat
+      font-weight: 400
+      font-size: 14px
+      line-height: 140%
+      letter-spacing: -0.01em

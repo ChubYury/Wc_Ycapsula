@@ -1,0 +1,219 @@
+body
+  position: relative
+  color: var(--text-color-base)
+
+.container
+  --container-width: 100%
+  width: var(--container-width)
+  margin: 0 auto
+  padding: 0 15px
+
+@media (min-width: 576px)
+  .container
+    --container-width: var(--mq-size-sm)
+  .logo
+    width: 179px
+    height: 47px
+
+  .btn-create
+    display: block
+    position: relative
+    right: 1%
+    font-size: 11px
+    line-height: 15px
+
+  .block-3
+    &__
+      &title
+        margin: 20px
+      &subtitle
+        margin: 20px
+      &textbig
+        width: 30%
+
+    .info
+      width: 65%
+
+  .list-2
+    flex-direction: row
+    flex-wrap: wrap
+    &__
+      &item
+        width: 25%
+        margin: 20px 20px
+  .slider
+    .slick-slide
+      width: 530px
+
+  .control
+    top: 75%
+    &--prev
+      right: 25%
+    &--next
+      right: 69%
+
+  .slider__itemWr
+    height: 240px
+
+@media (min-width: 768px)
+  .container
+    --container-width: var(--mq-size-md)
+
+  .block-1
+    &__
+      &title
+        margin: 40px 0px
+        font-size: 40px
+      &subtitle
+        max-width: 430px
+
+  .item
+    padding: 0px 0px 90px 100px
+    &::before
+      width: 2px
+      height: 90%
+      top: 15px
+      left: 32px
+    &--end
+      padding: 0px 0px 20px 100px
+    &__
+      &icon
+        width: 64px
+        height: 64px
+        padding: 15px 1px 0px 0px
+        top: 0px
+        left: 0px
+        font-size: 24px
+      &title
+        width: 70%
+        margin: 0px 0px 5px 0px
+      &description
+        width: 70%
+
+  .block-6
+    padding-bottom: 100px
+    &__
+      &wrap
+        padding: 30px 5px 10px 40px
+      &title
+        font-size: 40px
+  .info2
+    &__
+      &subtitle
+        margin: 40px 0px 26px 0px
+      &num
+        font-size: 144px
+
+  .control
+    &--prev
+      right: 33%
+    &--next
+      right: 63%
+
+@media (min-width: 1024px)
+  .container
+    --container-width: var(--mq-size-lg)
+
+  .navigation
+    display: block
+    &__item
+      margin: 10px 5px 10px 15px
+    &__link
+      font-size: 9px
+
+  .menu__btn
+    display: none
+
+  .block-2
+    &__
+      &title
+        font-size: 40px
+      &img
+        width: 50%
+        height: 100%
+      &btn
+        margin: 30px 0px
+
+  .block-3
+    &__
+      &textbig
+        width: 30%
+        font-size: 40px
+    .info
+      &__
+        &text
+          margin: 30px
+          font-size: 24px
+          &--blue
+            margin: 30px
+            font-size: 40px
+
+  .block-4
+    .bl-head
+      margin: 20px 15% 0px 0px
+      width: 220px
+    .items
+      width: 40%
+
+  .control
+    &--prev
+      right: 37%
+    &--next
+      right: 60%
+
+  .accordion
+    &__
+      &title
+        font-size: 40px
+      &question
+        &--text
+          font-size: 24px
+      &answer
+        &--text
+          font-size: 24px
+
+@media (min-width: 1366px)
+  .container
+    --container-width: var(--mq-size-xl)
+  .block-3
+    &__
+      &wrap
+        padding: 20px 20px 20px 20px
+
+      &title
+        margin: 20px 30px
+        font-size: 40px
+      &subtitle
+        margin: 20px 30px
+        font-size: 14px
+
+  .list-2
+    &__
+      &item
+        width: 25%
+        margin: 30px 20px 20px 50px
+        font-size: 32px
+        &::before
+          top: 10px
+          left: -34px
+          width: 25px
+          height: 25px
+
+  .block-6
+    &__
+      &wrap
+        padding-top: 60px
+      &title
+        width: 30%
+        font-size: 40px
+  .info2
+    width: 65%
+    &__
+      &subtitle
+        margin-top: 10px
+  .block-8
+    &__
+      &title
+        width: 40%
+      &body
+        width: 55%
